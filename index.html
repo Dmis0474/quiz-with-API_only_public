@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Quis with Api</title>
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- endinject -->
+
+    <!-- <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/app/scss/style.css"/> -->
+    
+  </head>
+  <body>
+    <body>
+      <div class="preloader"></div>
+      <div class="question"> <!-- блок -->
+        <div class="question__section" id="question__section"></div>
+        <div class="question__navigation">
+          <div class="question__buttons">
+            <button
+              class="question__button"
+              id="prev"
+              onclick="previousQuestion()"
+            >
+              Previous
+            </button>
+            <button
+              class="question__button"
+              id="next"
+              onclick="nextQuestion()"
+            >
+              Next
+            </button>
+          </div>
+          <button class="question__button question__button--result" id="get">
+            Show correct answers!
+          </button>
+        </div>
+        <img class="question__img" src="./img/Frame.png" />
+      </div>
+    <img class="background-img-topLeft" src="./img/left-top-img.png">
+    <img class="background-img-topRight" src="./img/right-top-img.png">
+    <img class="background-img-bottomLeft" src="./img/plus.png">
+    <img class="background-img-bottomMiddle" src="./img/plus.png">
+    <img class="background-img-bottomRight" src="./img/right-bottom-img.png">
+  
+    
+    <!-- inject:js -->
+    <script src="jsmin/main-min.js"></script>
+    <script src="jsmin/main.js"></script>
+    <script src="jsmin/jquery/jquery.min.js"></script>
+    <!-- endinject -->
+    <!-- <script src="jsmin/main.js"></script>
+    <script src="jsmin/libs.min.js"></script>
+    <script src="jsmin/common.js"></script> -->
+  </body>
+</html>
